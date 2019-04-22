@@ -15,5 +15,10 @@ function deepestChild() {
 
 function increaseRankBy(n) {
   var l = document.getElementsByTagName(".ranked-list")
+  for (var i = 0; i < l.length; i++) {
+    for (var i = 0; i < k.length; i++) {
+      l[i][k].innerHTML += n
+    }
+  }
 
 }
